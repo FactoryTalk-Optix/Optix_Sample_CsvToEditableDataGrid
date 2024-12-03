@@ -1,0 +1,26 @@
+Name: Translations
+Id: g=f3c698e5ffd30146ece66fb8a3640cb6
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Id: g=3587ad8e464c9c9a2c0fe9a6b8ab44bc
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [9,2],
+    "Body": [
+     "","en-US",
+     "Confirmation Dialog","Confirmation Dialog",
+     "ApplicationFolder","Application folder",
+     "Filename","File name",
+     "Size","Size",
+     "ProjectFolder","Project folder",
+     "FileNameInput","File name:",
+     "Confirm","Confirm",
+     "Cancel","Cancel"
+    ]
+   }

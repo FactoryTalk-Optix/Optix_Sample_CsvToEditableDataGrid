@@ -1,0 +1,18 @@
+Name: Model
+Id: g=2ca7fb6f03e86d5807ed3ad2aba6de1b
+Type: ModelCategoryFolder
+Children:
+- Name: CsvFile
+  Id: g=c21e073b0ff9945fcfa6442612788096
+  Type: BaseDataVariableType
+  DataType: ResourceUri
+  Value: "0"
+- Name: CsvSeparator
+  Id: g=aafcd95233832d0889d375e66e37174b
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ";"
+- Name: Visibility
+  Id: g=18a78f0e98008b3edc2d7139a44b4691
+  Type: BaseDataVariableType
+  DataType: Boolean

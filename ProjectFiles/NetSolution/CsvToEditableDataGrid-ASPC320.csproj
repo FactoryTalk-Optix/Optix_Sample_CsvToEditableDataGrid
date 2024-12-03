@@ -1,0 +1,151 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <NoWarn>1701;1702</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <NoWarn>1701;1702</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="QPlatform.EthernetIP.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.EthernetIP.Net/4.0.11.110/Any/QPlatform.EthernetIP.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.CoDeSys.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.CoDeSys.Net/4.0.11.110/Any/QPlatform.CoDeSys.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.NetLogic">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.NetLogic/4.0.2.110/Any/QPlatform.NetLogic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.MitsubishiQ.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.MitsubishiQ.Net/4.0.11.110/Any/QPlatform.MitsubishiQ.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Store.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.Store.Net/3.0.12.110/Any/QPlatform.Store.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.MelsecFX3U.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.MelsecFX3U.Net/4.0.11.110/Any/QPlatform.MelsecFX3U.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.SerialPort.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.SerialPort.Net/0.0.2.110/Any/QPlatform.SerialPort.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Core.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.Core.Net/1.0.1.110/Any/QPlatform.Core.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fadis.Mod10.Net">
+      <HintPath>C:/ProgramData/ASEM/UNIQO/AdditionalModules/Fadis.Mod10.Net/4.0.6.94/Any/Fadis.Mod10.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.UI.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.UI.Net/24.0.1.110/Any/QPlatform.UI.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Modbus.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.Modbus.Net/4.0.11.110/Any/QPlatform.Modbus.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.CoreBase.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.CoreBase.Net/4.2.0.27/Any/QPlatform.CoreBase.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.CommunicationDriver.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.CommunicationDriver.Net/3.0.11.110/Any/QPlatform.CommunicationDriver.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Alarm.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.Alarm.Net/3.0.12.110/Any/QPlatform.Alarm.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.SQLiteStore.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.SQLiteStore.Net/2.1.2.110/Any/QPlatform.SQLiteStore.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.HMIProject.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.HMIProject.Net/5.2.14.110/Any/QPlatform.HMIProject.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.ODBCStore.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.ODBCStore.Net/1.1.25.110/Any/QPlatform.ODBCStore.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.OmronEthernetIP.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.OmronEthernetIP.Net/4.0.11.110/Any/QPlatform.OmronEthernetIP.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.NativeUI.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.NativeUI.Net/0.0.12.110/Any/QPlatform.NativeUI.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.OPCUAClient.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.OPCUAClient.Net/6.1.12.110/Any/QPlatform.OPCUAClient.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.OPCUAServer.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.OPCUAServer.Net/3.1.12.110/Any/QPlatform.OPCUAServer.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Report.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.Report.Net/0.0.17.110/Any/QPlatform.Report.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Recipe.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.Recipe.Net/1.2.0.45/Any/QPlatform.Recipe.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Datalogger.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.Datalogger.Net/9.0.0.45/Any/QPlatform.Datalogger.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.EventLogger.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.EventLogger.Net/6.0.1.110/Any/QPlatform.EventLogger.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.OmronFins.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.OmronFins.Net/4.0.11.110/Any/QPlatform.OmronFins.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.S7TCP.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.S7TCP.Net/4.0.11.110/Any/QPlatform.S7TCP.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.S7TiaProfinet.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.S7TiaProfinet.Net/4.0.11.110/Any/QPlatform.S7TiaProfinet.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.Retentivity.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.Retentivity.Net/2.0.45.110/Any/QPlatform.Retentivity.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.TwinCat.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.TwinCat.Net/4.0.11.110/Any/QPlatform.TwinCat.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UAManagedCore">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Bindings/Net/2.0.45.110/Win32_x64/UAManagedCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UAManagedCoreCommon">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Bindings/Net/2.0.45.110/Win32_x64/UAManagedCoreCommon.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="QPlatform.System.Net">
+      <HintPath>C:/Program Files/ASEM/UNIQO/QStudio_std/Modules/QPlatform.System.Net/0.0.0.27/Any/QPlatform.System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
